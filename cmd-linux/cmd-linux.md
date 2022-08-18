@@ -8,4 +8,4 @@ Navega entre os diretórios
 Limpa o console
 
 ## sudo 
-Troca o usuário
+Troca o usuário/ executa como administrador
