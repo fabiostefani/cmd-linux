@@ -30,6 +30,18 @@ Resumo de comandos do Linux 🐧
 . find > utilizado para buscar um arquivo, a partir do diretório currente. 
     find -name arq*
 . mkdir > para criar diretórios
+. sudo > para rodar algo como administrador.
+. cat > para visualizar informações de arquivos
+. su > para acessar como super usuário (root)
+. nano/vim para edição de arquivos.
+. systemctl status <service> >> para verificar a situação de algum serviço
+. history >> apresenta os útlimos 1000 comandos que foram utilizados recentemente.
+    - history 30 > lista ios últimos 30
+    - !<numero do comando> >> executa o comando com aquele número
+    - !! executa o último comando
+    - history | grep "Planilhas" >> vai buscar por exemplos os comandos que tiveram o nome planilhas
+. | grep para efetuar alguma busca    
+
 
 Dicas
 $ > no final do caminho do prompt indica que não está logado como super user
