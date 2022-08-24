@@ -41,6 +41,26 @@ Resumo de comandos do Linux 🐧
     - !! executa o último comando
     - history | grep "Planilhas" >> vai buscar por exemplos os comandos que tiveram o nome planilhas
 . | grep para efetuar alguma busca    
+. chmod > para dar permissões
+    - drwxrwxrwx
+        . d > significa que aquele objeto é um diretório. Quando não tem o d, é um arquivo.
+        . os próximos rwx > são a permissões do dono do arquivo
+        . os rwx do meio são as permissões do grupo
+        . os últimos rwx são as permissões dos outros
+        d           rwx         rwx        rws
+        dir/file    dono        grupo      outros
+    - com base numérica, deve ser calculado qual permissão se deseja dar para cada grupo de permissão.
+        Leitura(R)  4
+        Gravacao(w) 2
+        Execucao(x) 1
+        Nenhuma     0
+    - chmod 777 <dir/file> >> para dar permissão total aos 3 grupos
+    - chmod 750 <dir/file>>> permissão total para o donom permissão de leitura e execução para o grupo que o proprietario pertence, nenhuma permissão para os demais.
+. chown > para trocar o proprietário de um dir/file   
+. apt-get > para manipular os pacotes nos linux
+. apt >> versão mais amigável para gerenciar os pacotes
+. 
+
 
 
 Dicas
