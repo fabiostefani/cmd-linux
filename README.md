@@ -59,7 +59,24 @@ Resumo de comandos do Linux 🐧
 . chown > para trocar o proprietário de um dir/file   
 . apt-get > para manipular os pacotes nos linux
 . apt >> versão mais amigável para gerenciar os pacotes
-. 
+.fdisk > para criar partições no disco
+.mkfs > para formatar a partição criadao. Deve ser informado qual o tipo de arquivo que desejo criar e qual disco.
+.mount > para montar um disco no linux. mount /disco /dir
+    . Para montar o disco automaticamente quando iniciar, deve ser adicionado a config no disco /etc/fstab.
+        /disco  /dir que monta  /sistema arq    defaults 0 0
+.umount > para desmontar o disco. Não perde as informações, só não lista mais.
+. cp > para efetuar a copia de arquivos.
+. mov > move arquivos
+. mov > também é utilizado para renomear arquivos.
+. ps > lista os processos que estão em execução para o usuário.
+    - a > lista para todos os users
+    - u > fornece o nome do user e a data
+    - x > mostra os processos fora do console também
+    - exemplo >> ls aux
+. kill > para encerrar um processo.
+    - killall <nome procesos> > para matar por nome de processo.
+. w > mostra quem está logado
+. who > mostra quem está logado com o pid para ser matado
 
 
 
